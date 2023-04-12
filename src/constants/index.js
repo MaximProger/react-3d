@@ -7,4 +7,8 @@ export const navItems = [
     path: "/box",
     title: "Box",
   },
+  {
+    path: "/earth",
+    title: "Earth",
+  },
 ];

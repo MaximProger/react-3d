@@ -1,6 +1,6 @@
-import { BoxCanvas, CubeCanvas } from "./components";
 import { Navbar } from "./components";
 import { Routes, Route } from "react-router-dom";
+import { BoxPage, CubePage, EarthPage } from "./pages";
 
 function App() {
   return (
@@ -8,8 +8,9 @@ function App() {
       <Navbar />
       <div className="container mx-auto h-full">
         <Routes>
-          <Route path="/" element={<CubeCanvas />} />
-          <Route path="/box" element={<BoxCanvas />} />
+          <Route path="/" element={<CubePage />} />
+          <Route path="/box" element={<BoxPage />} />
+          <Route path="/earth" element={<EarthPage />} />
         </Routes>
       </div>
     </main>
