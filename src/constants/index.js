@@ -1,3 +1,5 @@
+import { london, manhattan, paris } from "../assets/photos";
+
 export const navItems = [
   {
     path: "/",
@@ -14,5 +16,24 @@ export const navItems = [
   {
     path: "/rainbow",
     title: "Rainbow",
+  },
+  {
+    path: "/photos",
+    title: "Photos",
+  },
+];
+
+export const photos = [
+  {
+    name: "Paris",
+    icon: paris,
+  },
+  {
+    name: "London",
+    icon: london,
+  },
+  {
+    name: "Manhattan",
+    icon: manhattan,
   },
 ];
