@@ -1,6 +1,6 @@
 import { Navbar } from "./components";
 import { Routes, Route } from "react-router-dom";
-import { BoxPage, CubePage, EarthPage } from "./pages";
+import { BoxPage, CubePage, EarthPage, RainbowPage } from "./pages";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           <Route path="/" element={<CubePage />} />
           <Route path="/box" element={<BoxPage />} />
           <Route path="/earth" element={<EarthPage />} />
+          <Route path="/rainbow" element={<RainbowPage />} />
         </Routes>
       </div>
     </main>

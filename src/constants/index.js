@@ -11,4 +11,8 @@ export const navItems = [
     path: "/earth",
     title: "Earth",
   },
+  {
+    path: "/rainbow",
+    title: "Rainbow",
+  },
 ];
